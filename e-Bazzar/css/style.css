@@ -1,0 +1,84 @@
+body, html{margin:0; padding:0; background: url(../images/bg.jpg) repeat-x center top rgb(10,150,200) fixed;}
+.clearleft{clear:left;}
+.clearboth:after{clear:both; height:0; content:"."; display:block; visibility:hidden;}
+*{margin:0; padding:0;}
+p, ul, li, h1, h2, h3, h4, h5, h6{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+#main_container{margin-left:auto; margin-right:auto; padding:0; width:1000px;}
+
+.logo{float:left; margin:0; padding:10px 0 0 18px;}
+.cart_options{float:right; margin:0; padding:20px 22px 0 0; width:270px;}
+.cart{float:right; margin:0 0 5px 0;}
+.cart img{float:left; margin:0; padding:0;}
+.cart p{float:left; margin:0; padding:5px; font-size:13px;}
+.search{float:right; margin:0px 0 0 0px;}
+.search_txtbox{float:left; width:190px; line-height:30px; color:#000; border:#af0101 1px solid; height:27px;}
+.Submit {float:left; background:url(../images/search.jpg) no-repeat top left; height:27px; width:57px; border:none;}
+.cart_links {float:right; margin:0; padding:15px 0 10px 0;}
+.cart_links a{font-family:Verdana, Geneva, sans-serif; font-size:12px; color:black; text-decoration:none;}
+.cart_links a:hover {font-family:Verdana, Geneva, sans-serif; font-size:12px; color:rgb(10,150,200); text-decoration:underline;}
+
+.in_wrapper{background:#FFF; margin:20px auto; width:960px;}
+
+.navigation_bg{ margin:0; padding:0px; background:url(../images/nav_bg.jpg) repeat-x top left; height:50px; width:960px;}
+.navigation{padding:0px 0px 0px 0px;}
+.navigation ul{ margin:0; padding:0; float:left; list-style: none;}
+.navigation ul li{ float:left; height:55px; padding:0; font-size:15px; text-decoration:none; color:#d57e50; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; margin:0; margin-right:5px;}
+.navigation ul li a,.states a{display:block; float:left; height:50px; padding:0 20px; margin:0; line-height:50px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:15px; text-align:center; color:#000; text-decoration:none; text-transform:uppercase;}
+.navigation ul li a:hover,.current a{
+	float:left;
+	height:50px;
+	padding:0 20px;
+	line-height:50px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1em;
+	text-decoration:none;
+	color:#FFF;
+	background:green;
+	text-transform:uppercase;
+	font-variant: small-caps;
+}
+
+.content_wrapper{padding:20px;}
+
+.left_contents{float:left; margin:0; padding:0;}
+.sliders{margin:0; padding:0px 0 20px 0px;}
+.welcome{margin:0; padding:0; width:610px;}
+.content_title h2{background:green; line-height:50px; font-size:18px; padding:0 0 0 15px; color:#FFF;}
+.content_txts p{padding:15px; border:1px solid blue; font-size:13px; text-align:justify; height:152px; overflow:auto; line-height:19px; background:#f1f1f1;}
+
+.right_contents{float:right; margin:0; padding:0;}
+
+.pro_pic_title h2{background:repeat scroll 0% 0% green; line-height:50px; font-size:18px; padding:0 0 0 15px; color:#FFF;}
+.pro_pic{margin:20px 0; padding:0;}
+.content_txts2 p{padding:15px; border:1px solid purple; font-size:13px; text-align:justify; line-height:22px; background:#f1f1f1;}
+.content_txts2 img{position:absolute; z-index:1000; padding:20px 0 0 160px;}
+
+.contents{margin:20px 0 0 0;}
+
+.photos{border:1px solid purple; background:#f1f1f1; padding:12px 12px;}
+.photo{float:left; margin:2px; width:144px;}
+.img_wrapper_main{border:1px solid purple; background:#f1f1f1;}
+.img_wrapper{margin:0 auto; width:144px;}
+.product_des{background:purple; padding:6px; margin-top:1px;}
+.product_des p{font-size:14px; color:#FFF; text-align:center; padding-bottom:2px;}
+.product_des a{float:right; background:#FFF; padding:0 3px; color:#000; font-weight:bold; text-decoration:none; font-size:13px;}
+.product_des a:hover{color:green; font-weight:bold; text-decoration:underline;}
+
+#footer_cover{margin:10px 0 0 0px; padding:0 0 0 0px; background:url(../images/bg.jpg) repeat-x center top;}
+#footer{clear:both; margin:0px 0 0 0px; padding:0px 0px 5px 0px; text-align:center;}
+#footer p{padding:8px 0 5px 1px; font-size:15px; text-align:center; color:purple; line-height:16px; font-family:Arial, Helvetica, sans-serif;}
+p
+{
+	color: Green;
+	text-shadow: 5px 5px 5px Yellow;
+	font-size: 20px;
+	text-align:center;
+}
+
+div.maincontent
+{
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: brown;
+}
